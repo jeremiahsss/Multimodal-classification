@@ -1,1 +1,13 @@
 # Multimodal-classification
+
+## Project description
+Traditional single-label classification can be divided into binary (when there are two labels) and multi-class (when there are more than two labels), each of which associates only one label. It can be used for a variety of purposes, including sentiment analysis, image categorization, and spam filtering. Although single-label classification is a powerful technique and has provided solutions to many challenges, it is constrained by the nature of one-to-one relationship and frequently requires substantial effort to handle the dataset in a way that satisfies the training criterion. 
+
+On the other hand, multi-label classification overcomes this restriction and broadens the domain to a more practical, oneto- many relationship. Multi-label classification is becoming a vital and critical requirement for a variety of applications. A street photograph, for instance, can have features of people, cars, and traffic signs. Instead of classifying these items individually by dividing images into multiple sections, multi-label classification allows for the simultaneous detection of these elements.
+Transforming a multi-label classification problem into a binary representation is an intuitive and straightforward approach. For each class, a different classifier is trained. However, as modern datasets grow in size, the number of classes quickly overwhelms such an approach and renders it computationally impractical.
+
+This study uses a convolutional neural network to extract features in order to address the multi-label classification problem in a modern way. The main objective is to investigate and employ various strategies in order to enhance the model’s performance on the provided dataset. Each technique’s impact is tested, compared, and discussed after being reasoned through experimentation.
+
+The importance of this study is it not only offers a refined neural network solution to the multi-label classification problem, but also offers a method for dealing with dataset obstacles, optimizing image and text models, and utilizing various sources of classification results.
+
+The rest of the paper is structured as follows. An overview of related works and approaches to the multi-label classification problem is provided in Section 2. The proposed network designs and strategies are explained in detail and mathematically in Section 3. Section 4 conducts experiments to show the efficacy of the networks and methods suggested in Section 3. In the final section, we summarize the study’s findings and make some suggestions for further research.
